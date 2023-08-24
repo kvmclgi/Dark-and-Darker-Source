@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="minicrt\mincrt.cpp">
+      <Filter>minicrt</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\scanner\scanner.cpp">
+      <Filter>Memory\scanner</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="importer\lazy_importer.h">
+      <Filter>importer</Filter>
+    </ClInclude>
+    <ClInclude Include="minicrt\mincrt.h">
+      <Filter>minicrt</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Structs\Structs.h">
+      <Filter>SDK\structs</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Functions\Functions.h">
+      <Filter>SDK\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofer\Spoof.h">
+      <Filter>spoofer</Filter>
+    </ClInclude>
+    <ClInclude Include="xor\xor_data.h">
+      <Filter>Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="xor\xor_value.h">
+      <Filter>Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="xor\xor.h">
+      <Filter>Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\scanner\scanner.h">
+      <Filter>Memory\scanner</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\GUi.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="importer">
+      <UniqueIdentifier>{cbd1c028-0b0d-4976-91a1-659ffde0fc62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{7a1248b4-cb11-4878-8033-3630e1cdcdb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\structs">
+      <UniqueIdentifier>{d83c5fdc-5ecf-481e-833b-1d705277c672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Functions">
+      <UniqueIdentifier>{13041d4a-5db7-4e5a-bb97-c8b6238259c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="spoofer">
+      <UniqueIdentifier>{d75bb86e-21a3-4010-bead-0bcb5637806c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xor">
+      <UniqueIdentifier>{271797d2-4999-4789-8e56-acd6b41453c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{7327913b-8067-4475-a6f8-8c4d9710bcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\scanner">
+      <UniqueIdentifier>{32978557-d57a-4fcd-aba6-3e086f899caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{cb212cc2-9e4a-4e3c-9e28-ca8e25323514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minicrt">
+      <UniqueIdentifier>{80c693ce-8008-4ffd-ae57-6fad3d588534}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoofer\spoofer_stub.asm">
+      <Filter>spoofer</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
