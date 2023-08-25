@@ -1,1 +1,1 @@
-C:\Dnd1.2\x64\Release\DnD.dll
+C:\Users\astro\Desktop\projcD\projD\x64\Release\DnD.dll
