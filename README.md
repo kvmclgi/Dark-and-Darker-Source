@@ -4,6 +4,8 @@
 
 this source is a feature-packed utility designed to enhance your gaming experience. It provides a wide range of features to improve your gameplay, from aiming assistance to visualization enhancements.
 
+email: clgi@bypass.services
+
 ## Features
 
 ### Aim Assistance
