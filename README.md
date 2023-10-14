@@ -2,7 +2,7 @@
 
 ![Software Logo](https://tracer.wtf/gallery_gen/22925e80b6bb6925d61a2673e6c8b6cb_fit.png)
 
-Dark and Darker is a feature-packed utility designed to enhance your gaming experience. It provides a wide range of features to improve your gameplay, from aiming assistance to visualization enhancements.
+this source is a feature-packed utility designed to enhance your gaming experience. It provides a wide range of features to improve your gameplay, from aiming assistance to visualization enhancements.
 
 ## Features
 
